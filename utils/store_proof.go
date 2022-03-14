@@ -21,8 +21,8 @@ package utils
 import (
 	"io"
 
+	"github.com/cosmos/iavl"
 	"github.com/ontio/ontology/common"
-	"github.com/tendermint/iavl"
 )
 
 type Layer2StoreProof iavl.RangeProof
